@@ -1,9 +1,7 @@
-values = [True, False]
+values = [0, 1]
 
 for X in values:
     for Y in values:
         for Z in values:
-            if((not (X and Y and Z)) == ((not X) or (not Y) or (not Z))):
-                print(True)
-            else:
-                print(False)
+            print(f'For X = {X}, Y = {Y}, Z = {Z}')
+            print((not (X or Y or Z)) == ((not X) and (not Y) and (not Z)))
