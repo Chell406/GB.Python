@@ -1,5 +1,7 @@
 day = int(input('Введите номер дня: '))
+
 print(day)
+
 while day <= 0 or day > 7:
     print('Введено неверное значение')
     day = int(input('Введите номер дня: '))
