@@ -1,6 +1,4 @@
-
 from random import randint
-
 
 def Zapros(mound,player):
     while True:
